@@ -34,4 +34,16 @@ var reverse = function(ab){
   return ab.split("").reverse().join("")
 }
 
-alert(reverse(cipherupgrade(sentence)));
+// alert(reverse(cipherupgrade(sentence)));
+
+$(document).ready(function(){
+$("#left").click(function(){
+  alert(sentence);
+});
+
+$("#right").click(function(){
+  alert(reverse(cipherupgrade(sentence)));
+});
+
+
+});
